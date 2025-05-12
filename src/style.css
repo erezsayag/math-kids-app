@@ -156,3 +156,11 @@ img[alt^="תמונה מהמחשב"] {
     margin: 2px !important;
   }
 }
+
+@media (max-width: 600px) {
+  .dot-btn {
+    font-size: 2em;
+    min-width: 2.5em;
+    min-height: 2.5em;
+  }
+}
