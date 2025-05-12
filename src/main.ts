@@ -11,7 +11,7 @@ let opType: '+' | '-' = '+';
 
 // מיכל הנקודות עם הגבלת רוחב וירידת שורה
 function interactiveDots(n: number, idPrefix: string) {
-  let html = '<div style="display:flex;flex-wrap:wrap;gap:4px;justify-content:center;max-width:80px;margin:auto;">';
+  let html = '<div style="display:flex;flex-wrap:wrap;gap:3px;justify-content:center;width:90%;max-width:320px;margin:auto;">';
   for (let i = 0; i < n; i++) {
     html += `<button type="button" class="dot-btn" id="${idPrefix}-dot-${i}">●</button>`;
   }

@@ -74,9 +74,9 @@ button:hover, .answer-btn:hover {
 }
 
 .dot-btn {
-  font-size: 1.4em;      /* גודל עיגול */
-  min-width: 1.6em;      /* רוחב מינימלי */
-  min-height: 1.6em;     /* גובה מינימלי */
+  font-size: 2.0em;      /* גודל עיגול */
+  min-width: 2.0em;      /* רוחב מינימלי */
+  min-height: 2.0em;     /* גובה מינימלי */
   margin: 0;
   border-radius: 50%;
   border: 3px solid #222;
