@@ -6,10 +6,12 @@ function getRandomInt(min: number, max: number) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+// מיכל הנקודות עם הגבלת רוחב וירידת שורה
 function interactiveDots(n: number, idPrefix: string) {
-  let html = '<div style="display:inline-flex;gap:4px;">';
+  // max-width קטן יותר, gap קטן יותר
+  let html = '<div style="display:flex;flex-wrap:wrap;gap:4px;justify-content:center;max-width:80px;margin:auto;">';
   for (let i = 0; i < n; i++) {
-    html += `<button type="button" class="dot-btn" id="${idPrefix}-dot-${i}" style="width:28px;height:28px;border-radius:50%;border:1px solid #1976d2;background:#e3f0ff;color:#1976d2;font-size:1.3em;cursor:pointer;outline:none;">●</button>`;
+    html += `<button type="button" class="dot-btn" id="${idPrefix}-dot-${i}">●</button>`;
   }
   html += '</div>';
   return html;

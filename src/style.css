@@ -119,17 +119,18 @@ img[alt^="תמונה מהמחשב"] {
   box-shadow: 2px 2px 0 #fff176, 4px 4px 0 #2222;
 }
 
-/* --- הכי חשוב: כפתורים קטנים במסכים צרים --- */
-@media (max-width: 500px) {
+/* --- הכי חשוב: כפתורים גדולים במסכים צרים --- */
+@media (max-width: 600px) {
   .answer-btn {
-    min-width: 28px !important;
-    min-height: 28px !important;
-    font-size: 1em !important;
-    padding: 4px 0 !important;
+    min-width: 44px !important;
+    min-height: 44px !important;
+    font-size: 1.2em !important;
+    padding: 6px 0 !important;
   }
   .dot-btn {
-    min-width: 22px !important;
-    min-height: 22px !important;
+    min-width: 20px !important;
+    min-height: 20px !important;
     font-size: 1em !important;
+    margin: 2px !important;
   }
 }
